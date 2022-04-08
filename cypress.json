@@ -1,0 +1,16 @@
+{
+    "baseUrl": "https://www.jumia.com.ng/",
+    "defaultCommandTimeout": 8000,
+    "pageLoadTimeout": 20000,
+    "viewportHeight": 800,
+    "viewportWidth": 1500,
+    "reporter": "mocha-junit-reporter",
+    "reporterOptions": {
+    "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+    "testsuitesTitle": false,
+    
+        "waitForAnimations": false,
+         "animationDistanceThreshold": 50
+        
+}
+}
